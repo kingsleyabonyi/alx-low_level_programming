@@ -3,12 +3,12 @@
 #include <stdio.h>
 
 /**
- * main
+ * main - Prints if last number is greater than five or eqaul to zero
  *
  * Return: Always (Success)
  */
 int main(void)
- {
+{
 	int n, lastd;
 	
 	srand(time(0));
