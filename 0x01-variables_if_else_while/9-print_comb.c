@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * main
+ * main - Empty point
  *
+ * Return: Always (Success);
  */
 int main(void)
 {
