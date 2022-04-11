@@ -9,11 +9,11 @@
  */
 int main(void)
 {
-	char low, e, q;
+	char low;
 	
-	for (low = 'a'; low <= 'z' low++)
+	for (low = 'a'; c <= 'z'; low++)
 	{
-		if (low != e && low != q)
+		if (low != 'e' && low != 'q')
 			putchar(low);
 	}
 	putchar('\n');
