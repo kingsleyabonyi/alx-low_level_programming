@@ -1,28 +1,21 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Entry point
+ * main - Prints a series of numbers with commas
  *
- * Return: Always 0 (Success)
  */
-
-int main(void)
+in main(void)
 {
-	int d;
-
-	for (d= 0; d < 100; d++)
+	in d;
+	
+	for (d = '0'; d <= '9'; d++)
 	{
-		putchar((d / 10) + '0');
-		putchar((d % 10) + '0');
-		if (d != 99)
+		putchar(d);
+		if (d != '9')
 		{
 			putchar(',');
 			putchar(' ');
 		}
 	}
 	putchar('\n');
-
 	return (0);
-}
