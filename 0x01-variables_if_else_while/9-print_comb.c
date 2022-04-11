@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints a series of numbers with commas
+ * main - Enter point
  *
  */
 int main(void)
