@@ -6,7 +6,6 @@
  * @b: integer
  * Return: product
  */ 
-
 int mul(int a, int b)
 {
 	int c;
