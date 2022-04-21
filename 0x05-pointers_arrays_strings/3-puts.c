@@ -4,6 +4,7 @@
  * @str: an input string
  * Return: void
  */
+
 void _puts(char *str)
 {
 	int i = 0;
