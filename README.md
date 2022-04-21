@@ -1,1 +1,1 @@
-My C readme
+My readme
