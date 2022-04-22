@@ -5,9 +5,9 @@
  * @str: An input string
  * Return: void
  */
-void puts2(char *star)
+void puts2(char *str)
 {
-	int len = 0;
+	int i = 0;
 
 	while (str[i] != '\0')
 	{
