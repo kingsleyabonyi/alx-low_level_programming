@@ -21,8 +21,10 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			printf("%d\n", res);
+			res *= atoi(argv[i]);
 		}
+			printf("%d\n", res);
+		
 	}
 	return (0);
 }
